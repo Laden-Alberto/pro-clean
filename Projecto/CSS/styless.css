@@ -1,0 +1,55 @@
+
+div{
+    width: 1000px;
+    margin: 0 auto;
+}
+#d1{
+    margin-top: 40px;
+    width: 500px;
+    float: left;
+}
+aside{
+    margin-top: 20px;
+    width: 500px;
+    float:right;
+}
+
+form{
+font-family: arial;
+margin-top: 100px;
+}
+form div{
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+}
+form input, form textarea{
+outline: unset;
+padding: 20px;
+width: 300px;
+border: 1px solid #f0ec0d;
+border-radius: 20px;
+
+}
+
+form input:focus, form textarea:focus{
+background: #032321;
+color: #ffffff;
+}
+
+form input[type=submit]{
+background-color: #f0ec0d;
+color: #ffffff;
+cursor: pointer;
+}
+form input[type=submit]:hover{
+background: #032321;
+}
+form label{
+margin-left: 10px;
+}
+
+tfoot{
+	margin-top: 20px;
+}
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UACompatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sobre</title>
+
+        <link rel="stylesheet" type="text/css" href="../CSS/StyleSobre.css">
+
+        <style>
+            div{
+                width: 1000px;
+                margin: 0 auto;
+            }
+            #d1{
+                margin-top: 40px;
+                width: 500px;
+                float: left;
+            }
+            aside{
+                margin-top: 20px;
+                width: 500px;
+                float:right;
+            }
+
+            form{
+    font-family: arial;
+    margin-top: 100px;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+form input, form textarea{
+    outline: unset;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #f0ec0d;
+    border-radius: 20px;
+    
+}
+
+form input:focus, form textarea:focus{
+    background: #032321;
+    color: #ffffff;
+}
+
+form input[type=submit]{
+    background-color: #f0ec0d;
+    color: #ffffff;
+    cursor: pointer;
+}
+form input[type=submit]:hover{
+    background: #032321;
+}
+form label{
+    margin-left: 10px;
+}
+
+        </style>
+    </head>
+    <body>
+
+        <header class="header">
+			<a href="/"><img src="../Imagens/logo.png" alt="Pro-Clean"></a>
+			
+			
+				<nav>
+                    <ul class="menu">        
+                        <li><a href="../Pagina inicial.html">Inicio</a></li> 
+                        <li><a href="../Servicos/Servicos.html">Serviços</a></li>
+                        <li><a href="../Contacto/Contacto.html">Contacto</a></li> 
+                        <li><a href="Sobre.html">Sobre</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <section class="flax">
+            <div id="d1"><img src="imagens/limpeza_escritorios1.jpg"><br>
+            <img src="imagens/limpeza_escritorios2.jpg" width="400px"></div>
+                
+                <aside>
+                <h3>Limpeza de escritorio</h3>
+
+                <p>Limpeza Escritórios
+                    Uma vez que uma boa imagem profissional representa o reflexo da sua empresa, a Companhia das Limpezas preocupa-se com o bem-estar do cliente e dos seus colaboradores.</p>
+                    
+                    <p>As limpezas são realizadas em horário pós-laboral para que encontre o seu local de trabalho sempre impecável a qualquer hora, sem interferir com o trabalho dos colaboradores. Através da aspiração, remoção da sujidade e da desinfeção, o seu escritório (acessos privados e públicos, corredores, secretárias e equipamentos) ficará com um aspeto renovado, com um acabamento perfeito e brilhante.</p>
+                    
+                    <p>O cliente pode definir a periodicidade do serviço, de acordo com as suas preferências ou prioridades. Esta pode ser ocasional ou regular (diária, semanal, quinzenal ou mensal).</p>
+
+                <section class="formulario" method="post" id="contacto" action="mailto:proclean010@gmail.com">
+                    <form>
+                        <div> <label>Nome</label>
+                            <input type="text" placeholder="Digite o seu nome" name="nome" required>
+                        </div>
+                        <div> <label>Numero</label>
+                            <input type="text" placeholder="digite o seu numero" name="numero" required>
+                        </div>
+                        <div> <label>Email</label>
+                            <input type="email" placeholder="digite o seu email" name="email" required>
+                        </div>
+                        <div> <label>Servico</label>
+                            <input type="text" placeholder="digite o Servicos" name="Servico" required>
+                        </div>
+                        <div> <label>Mensagem</label>
+                            <textarea rows="10" name="msg" required></textarea>
+                        </div>
+                        <div> 
+                            <input type="submit" value="enviar" required/>
+                        </div>
+                        
+                        
+                    </form>
+                </section>
+                </aside>
+            
+        </section>
+
+    </body>
+</html>
